@@ -33,7 +33,6 @@ Unfortunately, I did not have enough time to write tests, as I was on a time con
 
 The integration test would be the following
 
-POSITIVE SCENARIOS
 
 1) test to see if /getBookByAuthor/:author route returns data
 2) test to see if /getBookByISBN/:isbn route returns data
