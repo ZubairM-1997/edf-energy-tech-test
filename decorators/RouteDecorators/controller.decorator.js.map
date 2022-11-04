@@ -1,0 +1,1 @@
+{"version":3,"file":"controller.decorator.js","sourceRoot":"","sources":["../../src/decorators/RouteDecorators/controller.decorator.ts"],"names":[],"mappings":";;;;;AAAA,4EAAoD;AAEpD,IAAM,UAAU,GAAG,UAAC,QAAgB;IAChC,OAAA,UAAC,MAAM,IAAK,OAAA,OAAO,CAAC,cAAc,CAAC,uBAAW,CAAC,SAAS,EAAE,QAAQ,EAAE,MAAM,CAAC,EAA/D,CAA+D;AAA3E,CAA2E,CAAC;AAEhF,kBAAe,UAAU,CAAC"}
