@@ -39,12 +39,17 @@ The integration test would be the following
 
 the unit tests would be the following
 1) getBooksByAuthor 
+
     a) test to see if response is json, then the correct information is returned
+
     b) test to see if response is xml, then the xml is converted to json (via the xml2js library) and then returned
 
 2) getBookByISBN
+
     a) test to see if correct ISBN format is entered as query paramters
+
     b) test to see if response is json, then the correct information is returned
+    
     c) test to see if response is xml, then the xml is converted to json (via the xml2js library) and then returned
 
 I would go through this process, test and refactor until I reach the optimal solution. This would have required a lot of mocking of external dependancies. Doable with Jest.
