@@ -31,13 +31,13 @@ One thing I did consider was different potential response types that can be retu
 ### Tests
 Unfortunately, I did not have enough time to write tests, as I was on a time constraint from juggling between various technical tests from different companies. However, if given enough time, I would write these integration tests and unit test
 
-The integration test would be the following
+The integration test would be the following (book.controller.ts)
 
 
 1) test to see if /getBookByAuthor/:author route returns data
 2) test to see if /getBookByISBN/:isbn route returns data
 
-the unit tests would be the following
+the unit tests would be the following (book.service.ts)
 1) getBooksByAuthor 
 
     a) test to see if response is json, then the correct information is returned
@@ -49,7 +49,7 @@ the unit tests would be the following
     a) test to see if correct ISBN format is entered as query paramters
 
     b) test to see if response is json, then the correct information is returned
-    
+
     c) test to see if response is xml, then the xml is converted to json (via the xml2js library) and then returned
 
 I would go through this process, test and refactor until I reach the optimal solution. This would have required a lot of mocking of external dependancies. Doable with Jest.
